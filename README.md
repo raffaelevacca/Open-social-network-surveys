@@ -1,5 +1,5 @@
 # Open social network surveys
- List of social network surveys with links to questionnaires and codebooks, and software tools for social network data collection. 
+ List of (1) published social network surveys with links to questionnaires and codebooks, and (2) software programs for social network data collection. This is a work in progress, please [contact me](www.raffaelevacca.com) or add an [issue](https://github.com/raffaelevacca/Open-social-network-surveys/issues) for any feedback or suggestions of more surveys and software.
 
 # Personal/egocentric network surveys
 * UC Berkeley Social Networks Study (UCNets) 
@@ -8,7 +8,7 @@
     - [Survey questionnaire](https://ucnets.berkeley.edu/researcher-resources/data-documentation/) 
     - [ICPSR webpage](https://www.icpsr.umich.edu/web/ICPSR/studies/36975/datadocumentation)
 * Netherlands Longitudinal Lifecourse Study (NELLS)
-    - Netherlands, 2009 and 2013: 
+    - Netherlands, 2009 and 2013 
     - [DANS EASY webpage](https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:59831/tab/2) 
 * National Social Life, Health, and Aging Project (NSHAP): 
     - [ICPSR webpage](https://www.icpsr.umich.edu/web/ICPSR/studies/20541/datadocumentation) 
