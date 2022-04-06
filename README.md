@@ -1,5 +1,5 @@
 # Open social network surveys
- List of (1) published social network surveys with links to questionnaires and codebooks, and (2) software programs for social network data collection. This is a work in progress, please [contact me](www.raffaelevacca.com) or add an [issue](https://github.com/raffaelevacca/Open-social-network-surveys/issues) for any feedback or suggestions of more surveys and software.
+ List of (1) published social network surveys with links to questionnaires and codebooks, and (2) software programs for social network data collection. This is a work in progress, please [contact me](http://www.raffaelevacca.com/) or add an [issue](https://github.com/raffaelevacca/Open-social-network-surveys/issues) for any feedback or suggestions of more surveys and software.
 
 # Personal/egocentric network surveys
 * UC Berkeley Social Networks Study (UCNets) 
