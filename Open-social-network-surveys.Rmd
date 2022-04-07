@@ -1,0 +1,46 @@
+---
+title: "Published social network surveys and software"
+author: "[Raffaele Vacca](http://www.raffaelevacca.com/)"
+date: '`r Sys.Date()`'
+output:
+  knitr:::html_vignette:
+  number_sections: yes
+toc: yes
+---
+  
+# Social network surveys
+
+```{r, echo = FALSE, message = FALSE}
+library(DT)
+library(tidyverse)
+library(magrittr)
+
+# Read the data
+data.surveys <- read_csv("./Data/surveys.csv")
+
+# Convert markdown links to html links
+data.surveys %<>%
+  mutate(
+    Links = str_replace_all(Links,
+            "\\[([^\\]]+)\\]\\(([^\\)]+)\\)",
+            "\\<a target=_blank href=\\2>\\1</a>")
+  )
+
+# Export to datatable
+DT::datatable(data.surveys, escape = FALSE)
+```
+
+# Software for social network data collection
+
+```{r, echo=FALSE, message = FALSE}
+# Same as above
+read_csv("./Data/software.csv") %>%
+  # Across all columns
+  mutate(across(everything(),
+                ~ str_replace_all(.x,
+                            "\\[([^\\]]+)\\]\\(([^\\)]+)\\)",
+                            "\\<a target=_blank href=\\2>\\1</a>")
+  )
+  ) %>%
+  DT::datatable(., escape = FALSE)
+```

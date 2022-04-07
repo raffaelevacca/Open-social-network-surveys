@@ -1,0 +1,10 @@
+Name,Country,Years,Egocentric/sociocentric,Links
+UC Berkeley Social Networks Study (UCNets),USA,2015-2018,Egocentric,"[Main website](https://ucnets.berkeley.edu/), [Survey questionnaire](https://ucnets.berkeley.edu/researcher-resources/data-documentation/), [ICPSR page](https://www.icpsr.umich.edu/web/ICPSR/studies/36975/datadocumentation)"
+Netherlands Longitudinal Lifecourse Study (NELLS),the Netherlands,"2009, 2013",Egocentric,[DANS EASY page](https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:59831/tab/2) 
+"National Social Life, Health, and Aging Project (NSHAP)",,,Egocentric,[ICPSR page](https://www.icpsr.umich.edu/web/ICPSR/studies/20541/datadocumentation) 
+Northern California Community Study,USA,1977,Egocentric,[ICPSR page](https://www.icpsr.umich.edu/web/ICPSR/studies/7744/datadocumentation#) 
+National Health and Social Life Survey,USA,1992,Egocentric,[ICPSR page](https://www.icpsr.umich.edu/web/ICPSR/studies/6647/datadocumentation#) 
+US General Social Survey,USA,,Egocentric,[ICPSR page](https://www.icpsr.umich.edu/web/ICPSR/studies/36797/datadocumentation) 
+Children of Immigrants Longitudinal Study (CILS4EU),"England, Germany, the Netherlands, Sweden",2010-,Egocentric,"[Main website](https://www.cils4.eu), [Documentation](https://www.cils4.eu/index.php?option=com_content&view=article&id=55&Itemid=12) "
+"International Social Survey Programme, Social Networks modules",,"1986, 2001, 2017",Egocentric,"Gesis pages [1986](https://www.gesis.org/en/issp/modules/issp-modules-by-topic/social-networks/1986), [2001](https://www.gesis.org/en/issp/modules/issp-modules-by-topic/social-networks/2001), [2017](https://www.gesis.org/en/issp/modules/issp-modules-by-topic/social-networks/2017) "
+National Longitudinal Study of Adolescent to Adult Health (Add Health),USA,,Sociocentric,[Main website](https://addhealth.cpc.unc.edu/)
