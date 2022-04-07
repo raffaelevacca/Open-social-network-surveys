@@ -1,3 +1,3 @@
 # Social network surveys and software
 
-Repository for [https://rpubs.com/raffaelevacca/887726](https://rpubs.com/raffaelevacca/887726)
+Repository for [rpubs.com/raffaelevacca/network-surveys-software](https://rpubs.com/raffaelevacca/network-surveys-software)
