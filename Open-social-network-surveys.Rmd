@@ -1,20 +1,25 @@
 ---
 title: "Published social network surveys and software"
-author: "[Raffaele Vacca](https://www.raffaelevacca.com/)"
+author: 
+  name: "Raffaele Vacca"
+  email: "[raffaelevacca.com](https://www.raffaelevacca.com/)"
+  affiliation: "University of Milan"
 date: '`r Sys.Date()`'
-output:
-  knitr:::html_vignette:
-  number_sections: yes 
+output: 
+  html_document:
+    theme: flatly
 ---
+
+<base target="_top"/>
 
 This is a list of 
 
 1. Published social network [surveys](#surveys) with links to questionnaires and codebooks.
 2. Software [programs](#software) for social network data collection. 
 
-[View on GitHub](https://github.com/raffaelevacca/Open-social-network-surveys).
+This is a work in progress, please [contact me](https://www.raffaelevacca.com/) or add a [GitHub issue](https://github.com/raffaelevacca/Open-social-network-surveys) for any feedback or suggestions of more surveys and software. Only surveys with published questionnaire or codebook are included (not necessarily published data).
 
-This is a work in progress, please [contact me](https://www.raffaelevacca.com/) or add a [GitHub issue](https://github.com/raffaelevacca/Open-social-network-surveys) for any feedback or suggestions of more surveys and software.
+_[View on GitHub](https://github.com/raffaelevacca/Open-social-network-surveys)_
   
 # Surveys
 
