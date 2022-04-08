@@ -24,9 +24,9 @@ _[View on GitHub](https://github.com/raffaelevacca/Open-social-network-surveys)_
 # Surveys
 
 ```{r, echo = FALSE, message = FALSE}
-library(DT)
-library(tidyverse)
-library(magrittr)
+suppressWarnings(library(DT))
+suppressWarnings(library(tidyverse))
+suppressWarnings(library(magrittr))
 
 # Read the data
 data.surveys <- read_csv("./Data/surveys.csv")
