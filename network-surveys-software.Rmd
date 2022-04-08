@@ -17,7 +17,7 @@ This is a list of
 1. Published social network [surveys](#surveys) with links to questionnaires and codebooks.
 2. Software [programs](#software) for social network data collection. 
 
-This is a work in progress, please [contact me](https://www.raffaelevacca.com/) or add a [GitHub issue](https://github.com/raffaelevacca/Open-social-network-surveys) for any feedback or suggestions of more surveys and software. Only surveys with published questionnaire or codebook are included (not necessarily published data).
+This is a work in progress, I appreciate any comments, corrections or suggestions of more surveys and software: you can contribute via [pull requests](https://github.com/raffaelevacca/Open-social-network-surveys) (just add items to `./Data/surveys.csv` or `software.csv`), or by adding a [GitHub issue](https://github.com/raffaelevacca/Open-social-network-surveys) or [contacting me](https://www.raffaelevacca.com/). Note that only surveys with published questionnaire or codebook are included (not necessarily published data).
 
 _[View on GitHub](https://github.com/raffaelevacca/Open-social-network-surveys)_
   
