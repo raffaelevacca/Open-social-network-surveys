@@ -1,3 +1,3 @@
 # Social network surveys and software
 
-Repository for [rpubs.com/raffaelevacca/network-surveys-software](https://rpubs.com/raffaelevacca/network-surveys-software)
+See [raffaelevacca.github.io/Open-social-network-surveys/](https://raffaelevacca.github.io/Open-social-network-surveys/)
