@@ -5,6 +5,8 @@ author:
   email: "[raffaelevacca.com](https://www.raffaelevacca.com/)"
   affiliation: "University of Milan"
 date: '`r Sys.Date()`'
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_file="./docs/index.html") })
 output: 
   html_document:
     theme: flatly
