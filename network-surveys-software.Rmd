@@ -36,7 +36,7 @@ data.surveys %<>%
   # Extract latest survey year
   mutate(
     max.year = map_dbl(Years, 
-                       ~ str_split(.x, ",", simplify = TRUE) %>%
+                       ~ str_split(.x, ",|-", simplify = TRUE) %>%
                          as.vector %>%
                          as.numeric %>%
                          max
@@ -46,12 +46,13 @@ data.surveys %<>%
   arrange(desc(max.year)) %>%
   dplyr::select(-max.year)
 
-# Convert markdown links to html links
+# Convert markdown links to html links across all columns
 data.surveys %<>%
-  mutate(
-    Links = str_replace_all(Links,
-            "\\[([^\\]]+)\\]\\(([^\\)]+)\\)",
-            "\\<a target=_blank href=\\2>\\1</a>")
+  mutate(across(everything(),
+                ~ str_replace_all(.x,
+                                  "\\[([^\\]]+)\\]\\(([^\\)]+)\\)",
+                                  "\\<a target=_blank href=\\2>\\1</a>")
+  )
   )
 
 # Export to datatable
@@ -63,7 +64,6 @@ DT::datatable(data.surveys, escape = FALSE)
 ```{r, echo=FALSE, message = FALSE}
 # Same as above
 read_csv("./Data/software.csv") %>%
-  # Across all columns
   mutate(across(everything(),
                 ~ str_replace_all(.x,
                             "\\[([^\\]]+)\\]\\(([^\\)]+)\\)",
