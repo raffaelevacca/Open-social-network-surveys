@@ -72,5 +72,7 @@ read_csv("./Data/software.csv") %>%
                             "\\<a target=_blank href=\\2>\\1</a>")
   )
   ) %>%
+  # Arrange by software name alphabetically
+  dplyr::arrange(Name) %>%
   DT::datatable(., escape = FALSE)
 ```
