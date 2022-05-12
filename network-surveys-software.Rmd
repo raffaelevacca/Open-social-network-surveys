@@ -9,7 +9,7 @@ knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_file="./docs/index.html") })
 output: 
   html_document:
-    theme: flatly
+    theme: lumen
 ---
 
 <base target="_top"/>
